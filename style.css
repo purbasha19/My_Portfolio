@@ -136,3 +136,108 @@ ul li a{
 .speaker-info p{
     color: #666;
 }
+
+/*Price Section*/
+.pricing-section{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.pricing-section h2{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.pricing-subtitle{
+    text-align: center;
+    color: #666;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.pricing-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.price-card{
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.price-card h5{
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.price-card h3{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.price-card p{
+    color: #666;
+}
+
+.price-card ul{
+    display: block;
+    list-style-type: disc;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 18px;
+}
+
+.price-card ul li{
+    display: list-item;
+    margin-bottom: 12px;
+}
+
+.pro-card{
+    background-color: #0f172a;
+    color: white;
+}
+
+.pro-card p{
+    color: #d1d5db;
+}
+.feature-list{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+.feature-list li{
+    color: #4b5563;
+}
+
+.pro-card .feature-list li{
+    color: #d1d5db;
+}
+
+.pricing-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    background-color: #2f5bea;
+    color: white;
+
+    padding: 12px 0;
+    border-radius: 6px;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+.outline-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    padding: 12px;
+    border-radius: 6px;
+}
