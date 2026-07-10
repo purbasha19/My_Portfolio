@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 15px 0;
+}
+
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+
+.logo img{
+    height: 55px;
+}
+
+/* Menu */
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 16px;
+}
+
+/* Button */
+
+.common_btn{
+    text-decoration: none;
+    background-color: #2f5bea;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.hero-section{
+    background-size: cover;
+    background-position: center;
+
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content{
+    width: 1000px;
+    margin: auto;
+}
+
+.hero-content h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -3.2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+
+.hero-content .common_btn{
+    display: inline-block;
+}
