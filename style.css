@@ -66,7 +66,7 @@ ul li a{
 }
 
 .hero-content{
-    width: 1000px;
+    width: 830px;
     margin: auto;
 }
 
@@ -81,13 +81,18 @@ ul li a{
 
 .hero-content p{
     color: white;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
     margin-bottom: 40px;
-    line-height: 35px;
 }
 
 .hero-content .common_btn{
     display: inline-block;
+    width: 282px;
+    padding: 25px 0;
+    border-radius: 10px;
+    margin-top: 150px;
 }
 /* Speakers Section */
 
